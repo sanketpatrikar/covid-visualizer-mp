@@ -1,0 +1,20 @@
+.covid-data-table-wrapper {
+  overflow-y: auto;
+  height: 350px;
+}
+
+.covid-data-table-wrapper > table > thead th {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 0 1px #343a40;
+}
+
+.covid-data-table-wrapper > table > thead th[sortable] {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.navbar {
+  background-color: rgb(70, 70, 210) !important;
+  width: 100%;
+}
